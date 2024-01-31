@@ -1,70 +1,357 @@
 {
-  "courseTitle": "Andamio Project-Based Learning",
-  "authors": ["Andamio Team"],
-  "modules": [
-    {
-      "id": "101",
-      "title": "How to Learn in Andamio",
-      "slts": [
-        {
-          "id": "101.1",
-          "slt": "I can mint an Andamio Learner Token."
-        },
-        {
-          "id": "101.2",
-          "slt": "I can commit to an Assignment."
-        },
-        {
-          "id": "101.3",
-          "slt": "I can see an on-chain record of my completed Assignment."
-        }
-      ]
-    },
-    {
-      "id": "102",
-      "title": "Markdown Content",
-      "slts": [
-        {
-          "id": "102.1",
-          "slt": "I can write Lessons with Markdown."
-        },
-        {
-          "id": "102.2",
-          "slt": "I can add changes to a public repository."
-        }
-      ]
-    },
-    {
-      "id": "201",
-      "title": "Make as many Modules as you need.",
-      "slts": [
-        {
-          "id": "201.1",
-          "slt": "I can write a Student Learning Target (SLT)."
-        },
-        {
-          "id": "201.2",
-          "slt": "I can write another SLT."
-        },
-        {
-          "id": "201.3",
-          "slt": "I can write as many SLTs as needed, for as many Modules as my Course requires."
-        }
-      ]
-    },
-    {
-      "id": "301",
-      "title": "Another Module",
-      "slts": [
-        {
-          "id": "301.1",
-          "slt": "I can create additional course modules."
-        },
-        {
-          "id": "301.2",
-          "slt": "I can use Module IDs to sequence course modules."
-        }
-      ]
-    }
-  ]
-}
+    "courseTitle": "Plutus Project-Based Learning 2024",
+    "authors": ["Gimbalabs"],
+    "modules": [
+      {
+        "id": "100",
+        "title": "Getting Started",
+        "slts": [
+          {
+            "id": "100.1",
+            "slt": "I can connect a Cardano wallet to the pre-production test network."
+          },
+          {
+            "id": "100.2",
+            "slt": "I can get free tAda on the pre-production testnet."
+          },
+          {
+            "id": "100.3",
+            "slt": "I know how to safely store my keys."
+          },
+          {
+            "id": "100.4",
+            "slt": "I can mint a PPBL Contributor Token."
+          }
+        ]
+      },
+      {
+        "id": "101",
+        "title": "Write Your First Smart Contract",
+        "slts": [
+          {
+            "id": "101.1",
+            "slt": "I can compile a validator to Untyped Plutus Core (UPLC)."
+          },
+          {
+            "id": "101.2",
+            "slt": "I understand the role that UPLC plays in a decentralized application on Cardano."
+          },
+          {
+            "id": "101.3",
+            "slt": "I can use Demeter.run to compile a .plutus script."
+          },
+          {
+            "id": "101.4",
+            "slt": "I can set up a local Plutus development environment using nix, and use it to compile a .plutus script."
+          },
+          {
+            "id": "101.5",
+            "slt": "I can write an \"always succeeds\" validator script in Aiken."
+          },
+          {
+            "id": "101.6",
+            "slt": "I can write an \"always succeeds\" validator script in Plu-TS."
+          },
+          {
+            "id": "101.7",
+            "slt": "I can write an \"always succeeds\" validator script in OpShin."
+          }
+        ]
+      },
+      {
+        "id": "102",
+        "title": "Build Your First Transactions",
+        "slts": [
+          {
+            "id": "102.1",
+            "slt": "I can query the blockchain using cardano-cli."
+          },
+          {
+            "id": "102.2",
+            "slt": "I can create a wallet using cardano-cli."
+          },
+          {
+            "id": "102.3",
+            "slt": "I can build a simple transaction using cardano-cli."
+          },
+          {
+            "id": "102.4",
+            "slt": "I can lock funds at a contract address using cardano-cli."
+          },
+          {
+            "id": "102.5",
+            "slt": "I can unlock funds from a contract address using cardano-cli."
+          },
+          {
+            "id": "102.6",
+            "slt": "I can use bash scripts to build re-usable transactions."
+          }
+        ]
+      },
+      {
+        "id": "103",
+        "title": "What You Will Learn in This Course",
+        "slts": [
+          {
+            "id": "103.1",
+            "slt": "I can make a contribution to an open source project using git."
+          },
+          {
+            "id": "103.2",
+            "slt": "I can re-use code from existing projects."
+          },
+          {
+            "id": "103.3",
+            "slt": "I can ask questions on Cardano Stack Exchange."
+          }
+        ]
+      },
+      {
+        "id": "201",
+        "title": "Build a Front End Dapp Template",
+        "slts": [
+          {
+            "id": "201.1",
+            "slt": "I can run a Next JS project on my local device."
+          },
+          {
+            "id": "201.2",
+            "slt": "I can use Mesh APIs to interact with a browser-wallet like Eternl or Nami."
+          },
+          {
+            "id": "201.3",
+            "slt": "I can create a web app that renders differently if a user holds a Cardano token."
+          },
+          {
+            "id": "201.4",
+            "slt": "I can query the blockchain with GraphQL and Koios."
+          },
+          {
+            "id": "201.5",
+            "slt": "I can use git to create a feature branch and submit a merge request."
+          }
+        ]
+      },
+      {
+        "id": "202",
+        "title": "Five Ways to Mint a Token",
+        "slts": [
+          {
+            "id": "202.1",
+            "slt": "I can mint native assets with GameChanger Wallet."
+          },
+          {
+            "id": "202.2",
+            "slt": "I can mint native assets with native scripts using cardano-cli."
+          },
+          {
+            "id": "202.3",
+            "slt": "I can mint a Cardano native asset using Mesh APIs."
+          },
+          {
+            "id": "202.4",
+            "slt": "I can mint a native asset using a Plutus Minting script compiled from PlutusTx."
+          },
+          {
+            "id": "202.5",
+            "slt": "I can mint a native asset using a Plutus Minting script compiled from Aiken."
+          }
+        ]
+      },
+      {
+        "id": "203",
+        "title": "Three Ways to Mint an NFT",
+        "slts": [
+          {
+            "id": "203.1",
+            "slt": "I can add metadata to a Cardano transaction."
+          },
+          {
+            "id": "203.2",
+            "slt": "I can create a Cardano NFT that adheres to CIP-25 standards."
+          },
+          {
+            "id": "203.3",
+            "slt": "I know where to learn more about Cardano Improvement Proposals."
+          },
+          {
+            "id": "203.4",
+            "slt": "I can contribute to new standards in this development ecosystem."
+          }
+        ]
+      },
+      {
+        "id": "204",
+        "title": "PPBL Faucet Project",
+        "slts": [
+          {
+            "id": "204.1",
+            "slt": "I can deploy an instance of a Plutus script with custom parameters"
+          },
+          {
+            "id": "204.2",
+            "slt": "I can contribute to a headless, decentralized application."
+          }
+        ]
+      },
+      {
+        "id": "301",
+        "title": "Writing and Using Plutus Validators",
+        "slts": [
+          {
+            "id": "301.1",
+            "slt": "I can write a Plutus Spending validator."
+          },
+          {
+            "id": "301.2",
+            "slt": "I know enough haskell to understand some common validator design patterns."
+          },
+          {
+            "id": "301.3",
+            "slt": "I understand how Datum is used in Plutus validators."
+          },
+          {
+            "id": "301.4",
+            "slt": "I understand how Redeemers are used in Plutus validators."
+          }
+        ]
+      },
+      {
+        "id": "302",
+        "title": "On-Chain Essentials: Plutus",
+        "slts": [
+          {
+            "id": "302.1",
+            "slt": "I can plan and implement my own Plutus contracts"
+          },
+          {
+            "id": "302.2",
+            "slt": "I can create, update and maintain a Plutus project."
+          },
+          {
+            "id": "302.3",
+            "slt": "I understand how time works on Plutus (POSIXTime) and Ledger (Slot Number)."
+          }
+        ]
+      },
+      {
+        "id": "303",
+        "title": "On-Chain Essentials: Aiken",
+        "slts": [
+          {
+            "id": "303.1",
+            "slt": "I can navigate the Aiken development environment, and know where to find help."
+          },
+          {
+            "id": "303.2",
+            "slt": "I can can implement helper functions in Aiken."
+          },
+          {
+            "id": "303.3",
+            "slt": "I can write a custom minting validator in Aiken."
+          },
+          {
+            "id": "303.4",
+            "slt": "I can write a spending validator script using Aiken."
+          }
+        ]
+      },
+      {
+        "id": "304",
+        "title": "On-Chain Essentials: Plu-ts",
+        "slts": [
+          {
+            "id": "304.1",
+            "slt": "I can write a spending validator in plu-ts."
+          },
+          {
+            "id": "304.2",
+            "slt": "I can handle datum in plu-ts."
+          },
+          {
+            "id": "304.3",
+            "slt": "I can handle redeemer in plu-ts."
+          },
+          {
+            "id": "304.4",
+            "slt": "I can compile parameterized validators on the fly."
+          },
+          {
+            "id": "304.5",
+            "slt": "I can use plu-ts to evaluate validation logic in a smart contract transaction directly in my dapp."
+          }
+        ]
+      },
+      {
+        "id": "305",
+        "title": "In-depth with MeshSDK",
+        "slts": [
+          {
+            "id": "305.1",
+            "slt": "I have setup my development environment for web3 development."
+          },
+          {
+            "id": "305.2",
+            "slt": "I can start from a Mesh starter kit and deploy the app in production."
+          },
+          {
+            "id": "305.3",
+            "slt": "I can interact with user's Browser Wallet with Mesh UI component and hooks."
+          },
+          {
+            "id": "305.4",
+            "slt": "I can create transactions to interact with smart contracts and retrieve relevant UTXOs from the script and use it as reference inputs."
+          },
+          {
+            "id": "305.5",
+            "slt": "I can build UI interaction to trigger transactions, and listen for transaction status."
+          }
+        ]
+      },
+      {
+        "id": "306",
+        "title": "Off-Chain Essentials: Transactions, UI, and Queries",
+        "slts": [
+          {
+            "id": "306.1",
+            "slt": "I can make programmatic queries of historical transactions using Koios and GraphQL."
+          },
+          {
+            "id": "306.2",
+            "slt": "I can create user interfaces which enable the user to interact with the blockchain by forming appropriate transactions for some interaction."
+          },
+          {
+            "id": "306.3",
+            "slt": "I can use Kupo to create an index of on-chain data."
+          }
+        ]
+      },
+      {
+        "id": "307",
+        "title": "Intro to Testing and Optimization",
+        "slts": [
+          {
+            "id": "307.1",
+            "slt": "I can run tests using shell, nix and cabal."
+          },
+          {
+            "id": "307.2",
+            "slt": "I can express a property in QuickCheck"
+          },
+          {
+            "id": "307.3",
+            "slt": "I can explain how CI adds value to a project team."
+          },
+          {
+            "id": "307.4",
+            "slt": "I can explain the outcomes of verification and audit."
+          },
+          {
+            "id": "307.5",
+            "slt": "I can test a validation script written in Aiken."
+          }
+        ]
+      }
+    ]
+  }
+  
