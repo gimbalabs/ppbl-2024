@@ -1,6 +1,6 @@
 ---
  {
-	"title": "Module 103",
+	"title": "How Plutus PBL Works",
 	"slt": ["103.1", "103.2", "103.3"],
 	"type": "ModuleOverview",
 	"description": "",

@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "Build a Dapp Front End",
 	"slt": ["201.1", "201.2", "201.3", "201.4", "201.5"],
 	"type": "ModuleOverview",
 	"description": "",

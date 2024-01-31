@@ -22,7 +22,7 @@ import courseManagementTokens from './courseManagementTokens.json'
 import projectManagementTokens from './projectManagementTokens.json'
 
 export const andamioConfig: AndamioConfig<CourseManagementConfig & ProjectManagementConfig> = {
-  title: "Andamio PBL",
+  title: "Plutus PBL 2024",
   baseAddress: "",
   enterpriseAddress: "",
   rewardAddress: "",

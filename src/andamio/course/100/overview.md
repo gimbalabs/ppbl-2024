@@ -1,4 +1,16 @@
-## Welcome to Plutus PBL 2023!
+---
+ {
+	"title": "Welcome to PPBL 2024",
+	"slt": ["100.1", "100.2", "100.3", "100.4"],
+	"type": "ModuleOverview",
+	"description": "",
+	"videoURL": "",
+	"lastEdited": "2024-01-08",
+	"author": "Gimbalabs"
+}
+---
+
+## Welcome to Plutus PBL 2024!
 
 The purpose of this module is to give you an example of how this course works.
 

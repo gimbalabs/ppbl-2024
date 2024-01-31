@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "Three Ways to Mint an NFT",
 	"slt": [""],
 	"type": "ModuleOverview",
 	"description": "",

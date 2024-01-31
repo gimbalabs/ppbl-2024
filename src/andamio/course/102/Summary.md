@@ -12,20 +12,9 @@
 
 ## Learning Target Review
 
-
-
 ## Read each of the following learning targets. Do you agree that you can do each of the following?
-<SLTSmall moduleNumber={102} id={"102.1"} />
-<SLTSmall moduleNumber={102} id={"102.2"} />
-<SLTSmall moduleNumber={102} id={"102.3"} />
-<SLTSmall moduleNumber={102} id={"102.4"} />
-<SLTSmall moduleNumber={102} id={"102.5"} />
-<SLTSmall moduleNumber={102} id={"102.6"} />
-
 
 ## Key Ideas
-
-
 
 ## Read each of the following points. Does each one make sense to you? If so, you are making great progress, congratulations! If not, please be sure to ask questions at Live Coding or on Discord.
 - Every Cardano transaction takes 1 or more UTxOs as input, and produces 1 or more new UTxOs as output.

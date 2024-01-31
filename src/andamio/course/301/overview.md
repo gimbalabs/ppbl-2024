@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "Plutus Validators",
 	"slt": [""],
 	"type": "ModuleOverview",
 	"description": "",

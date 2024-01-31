@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "On-Chain Essentials: Plutus",
 	"slt": [""],
 	"type": "ModuleOverview",
 	"description": "",

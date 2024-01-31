@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "On-Chain Essential: Aiken",
 	"slt": ["303.1", "303.2", "303.3", "303.4"],
 	"type": "ModuleOverview",
 	"description": "",

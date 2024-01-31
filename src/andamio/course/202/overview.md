@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "Five Ways to Mint a Token",
 	"slt": [""],
 	"type": "ModuleOverview",
 	"description": "",

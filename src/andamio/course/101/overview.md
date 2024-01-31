@@ -1,6 +1,6 @@
 ---
  {
-	"title": "Overview",
+	"title": "Write Your First Smart Contract",
 	"slt": ["101.1", "101.2", "101.3", "101.4", "101.5", "101.6", "101.7"],
 	"type": "ModuleOverview",
 	"description": "",

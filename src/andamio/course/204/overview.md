@@ -1,6 +1,6 @@
 ---
  {
-	"title": "",
+	"title": "PPBL Faucet Project",
 	"slt": [""],
 	"type": "Lesson",
 	"description": "",
@@ -9,8 +9,7 @@
 	"author": "Gimbalabs"
 }
 ---
- 
- import SLTSmall from '@/src/components/ui/Text/SLTSmall';
+
 
 ## Introduction
 
@@ -69,6 +68,3 @@ You might discover that you can help other students to complete this project. Or
 ## Looking Ahead
 
 At [the end of this project](/modules/204/summary), we'll invite you to complete the [PPBL 2023 Mid Course Survey](https://forms.gle/h1qabD83oDvpPPG87).
-
-import MDXLessonLayout from '@/src/components/lms/Lesson/MDXLessonLayout.tsx';
-export default ({ children}) => <MDXLessonLayout>{children}</MDXLessonLayout>;

@@ -9,16 +9,16 @@ export const dynamic = "force-dynamic";
 
 export default async function CoursePage() {
   const AllLessons = await LessonList();
-  const courseOutline = await CourseOutline();
+  // const courseOutline = await CourseOutline();
 
   return (
     <main className="items-center justify-center font-extrabold text-4xl" style={{ minHeight: "calc(100vh - 5rem)" }}>
       <div className="mb-5">
         <ModuleBreadcrumbs frontmatter={undefined} moduleId={undefined} />
       </div>
-      <div className={styles.coursePageContainer}>
+      {/* <div className={styles.coursePageContainer}>
         <Suspense fallback={<Loading />}>{courseOutline}</Suspense>
-      </div>
+      </div> */}
       <Suspense fallback={<Loading />}>{AllLessons}</Suspense>
     </main>
   );

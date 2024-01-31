@@ -240,7 +240,6 @@ When building applications on Cardano, it is common to build complex transaction
 You just built a transaction using an on-chain reference to a Plutus Script. Another big idea that we will discuss in the coming weeks!
 
 
-import MDXLessonLayout from '@/src/components/lms/Lesson/MDXLessonLayout.tsx';
-export default ({ children}) => <MDXLessonLayout>{children}</MDXLessonLayout>;
+
 
 ;
